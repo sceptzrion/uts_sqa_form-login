@@ -1,0 +1,20 @@
+{
+  "name": "uts_sqa_form-login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently  \"tailwindcss -i ./css/input.css -o ./css/output.css --watch\" \"php -S localhost:8000\"  "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  },
+  "devDependencies": {
+    "daisyui": "^5.1.26"
+  }
+}
