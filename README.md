@@ -12,29 +12,6 @@ It demonstrates the implementation of a secure login form using **PHP (Native)**
 
 ---
 
-## 📂 Project Structure
-
-UTS_SQA_FORM-LOGIN/
-├── css/ # TailwindCSS build files (input.css, output.css)
-├── dashboard/ # Dashboard page after successful login
-├── node_modules/ # Node.js dependencies (for TailwindCSS build)
-├── public/ # Public assets (e.g., banner.jpg)
-├── reset/ # Reset lockout helper (dev only)
-├── src/ # Core PHP source files
-│ ├── config.php
-│ ├── csrf.php
-│ ├── db.php
-│ └── init_db.php
-├── storage/ # Log files and DB storage
-│ └── app.log
-├── index.php # Main login page
-├── logout.php # Logout functionality
-├── package.json # Node.js config for TailwindCSS
-├── package-lock.json
-└── uts_sqa_db.sql # SQL file to create database & users table
-
----
-
 ## ⚙️ Requirements
 
 - PHP 8.x or later  
